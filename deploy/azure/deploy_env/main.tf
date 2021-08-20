@@ -1,7 +1,7 @@
 # Configure the Azure provider
 terraform {
     backend "azurerm" {
-        resource_group_name  = "tfStateStorage" #Your tf state resource group name
+        resource_group_name  = "tf_state_storage" #Your tf state resource group name
         storage_account_name = "tfstatestorageaccteus5" #Your unique tf state storage account name
         container_name       = "terraform-state" #Your tf state container name
         key                  = "terraform.tfstate"
