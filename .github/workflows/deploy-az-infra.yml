@@ -17,7 +17,7 @@ on:
 defaults:
   run:
     working-directory:
-      ./deploy/azure/terraform/deploy_env    # Make sure this is the correct location for your main.tf file
+      ./deploy/azure/deploy_env    # Make sure this is the correct location for your main.tf file
 
 jobs:
   terraform:

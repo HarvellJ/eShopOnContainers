@@ -1,6 +1,12 @@
 name: ordering-backgroundtasks
 
 on:
+  workflow_dispatch:
+    inputs:
+     name:
+       description: 'exec name'
+       default: 'default execution'
+       required: false
   push:
     branches:
     - dev
