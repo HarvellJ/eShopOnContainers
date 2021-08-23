@@ -67,7 +67,8 @@ export class SharedModule {
                 SecurityService, 
                 ConfigurationService, 
                 StorageService,
-                SignalrService
+                SignalrService,
+		ApplicationInsightsService
             ]
         };
     }

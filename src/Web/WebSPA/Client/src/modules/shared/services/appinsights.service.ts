@@ -10,7 +10,7 @@ export class ApplicationInsightsService {
        
     }
     load() {
-        var aiKey = 'Application Insights Instrumentation Key';
+        var aiKey = 'a9cd17d0-ca63-45f5-8a31-9fe18b19391';
         this.appInsights = new applicationinsightsWeb.ApplicationInsights({
             config: {
                 instrumentationKey: aiKey,
