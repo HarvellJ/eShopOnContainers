@@ -42,6 +42,7 @@
     "@popperjs/core": "2.0.0",
     "acorn": "^6.4.1",
     "acorn-dynamic-import": "4.0.0",
+    "applicationinsights": "^2.1.5",
     "bootstrap": "4.4.1",
     "core-js": "^3.14.0",
     "file-loader": "2.0.0",
