@@ -19,7 +19,7 @@ on:
 defaults:
   run:
     working-directory:
-      scheduled_query_alert_automated_deploy
+      ./deploy/azure/scheduled_query_alert_automated_deploy
 
 jobs:
   terraform:
