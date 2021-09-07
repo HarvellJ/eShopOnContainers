@@ -6,7 +6,7 @@ resourceRegion="eastus"
 SLOs = {
     "View Catalog-SuccessRate 2-percent-budget-1hour" = {
         userJourneyCategory = "View Catalog",
-        sloCategory         = "ErrorRate",
+        sloCategory         = "ErrorRate 2-percent-budget-1hour",
         sloPercentile       = ""
         sloDescription      = "\"/catalog\" request error rate in the last 360 mins measured at API Gateway with a 13% burn rate",
         signalQuery         = <<-EOT
@@ -25,7 +25,7 @@ SLOs = {
     },
     "View Catalog-SuccessRate 5-percent-budget-6hours" = {
         userJourneyCategory = "View Catalog",
-        sloCategory         = "ErrorRate",
+        sloCategory         = "ErrorRate 5-percent-budget-6hours",
         sloPercentile       = ""
         sloDescription      = "\"/catalog\" request error rate in the last 360 mins measured at API Gateway with a 6% burn rate",
         signalQuery         = <<-EOT
@@ -48,7 +48,7 @@ SLOs = {
     },
      "View Catalog-SuccessRate 10-percent-budget-48hour" = {
         userJourneyCategory = "View Catalog",
-        sloCategory         = "ErrorRate",
+        sloCategory         = "ErrorRate 10-percent-budget-48hour",
         sloPercentile       = ""
         sloDescription      = "\"/catalog\" request error rate in the last 360 mins measured at API Gateway with a 1.4% burn rate",
         signalQuery         = <<-EOT
