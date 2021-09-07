@@ -20,7 +20,7 @@ SLOs = {
         signalSeverity      = 2,
         frequency           = 15,
         time_window         = 60,
-        triggerOperator     = "GreaterThanOrEqualTo",
+        triggerOperator     = "GreaterThan",
         triggerThreshold    = 130
     },
     "View Catalog-SuccessRate 5-percent-budget-6hours" = {
@@ -43,7 +43,7 @@ SLOs = {
         signalSeverity      = 3,
         frequency           = 15,
         time_window         = 360,
-        triggerOperator     = "GreaterThanOrEqualTo",
+        triggerOperator     = "GreaterThan",
         triggerThreshold    = 60
     },
      "View Catalog-SuccessRate 10-percent-budget-48hour" = {
@@ -66,7 +66,7 @@ SLOs = {
         signalSeverity      = 3,
         frequency           = 60,
         time_window         = 2880,
-        triggerOperator     = "GreaterThanOrEqualTo",
+        triggerOperator     = "GreaterThan",
         triggerThreshold    = 14
     },
     "Login-SuccessRate" = {
